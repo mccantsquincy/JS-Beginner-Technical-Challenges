@@ -125,3 +125,125 @@ function sumGreaterThan100(num1, num2) {
 }
 
 console.log(sumGreaterThan100(100, -50));
+
+//  7. less than or equal to 0
+// write a function that acceps a numer and returns true if it is less than or equal to zero, otherwise retrun false
+
+// function lessThanOrEqualToZero(num1) {
+//     return num1 <= 0;
+// }
+
+// console.log(lessThanOrEqualToZero(3));
+
+// function lessThanOrEqualToZero(num1) {
+//     return num1 <= 0;
+// }
+
+// console.log(lessThanOrEqualToZero(0));
+
+function lessThanOrEqualToZero(num1) {
+    return num1 <= 0;
+}
+
+console.log(lessThanOrEqualToZero(-2));
+
+// 8. Opposite boolean
+// Given a boolean (true of false), return the opposite boolean
+
+// function oppositeBoolean(bool) {
+//     return !bool
+// }
+
+// console.log(oppositeBoolean(true));
+
+function oppositeBoolean(bool) {
+    // when ever you put ! infront of boolean it will return the opposite
+    return !bool;
+}
+
+console.log(oppositeBoolean(false));
+
+// 9. Is not the number 0
+// Given ANY element, return true if it is NOT the number 0
+
+// function isNotZero(num) {
+//     return num !== 0;
+// }
+
+// console.log(isNotZero(5));
+
+// function isNotZero(num) {
+//     return num !== 0;
+// }
+
+// console.log(isNotZero(0));
+
+function isNotZero(num) {
+    return num !== 0;
+}
+
+console.log(isNotZero(null));
+
+//  10. Calculate the remainder
+//  Given two numbers, return their remainder when divided by each other
+
+// function calcRemainder (num1, num2) {
+//     return num1 % num2;
+// }
+
+// console.log(calcRemainder(4, 2))
+
+// function calcRemainder(num1, num2) {
+//     return num1 % num2;
+// }
+
+// console.log(calcRemainder(7, 8));
+
+function calcRemainder(num1, num2) {
+    return num1 % num2;
+}
+
+console.log(calcRemainder(9, 8));
+
+// 11. Is the number odd
+// Given two numbers, retrun true if the number is odd
+
+// function isOdd(num) {
+//     return num % 2 === 0 
+    
+// }
+
+// console.log(isOdd(1));
+
+// function isOdd(num) {
+//     return num % 2 === 0;
+// }
+
+// console.log(isOdd(2));
+
+function isOdd(num) {
+    return num % 2 === 0;
+}
+
+console.log(isOdd(3));
+
+// 12. if a bumber is even, return 1 otherwise return -1
+// create a function that takes a number argumetn and returns 1 if the number is even. if the number is odd return -1
+
+// function booleanInteger(num) {
+//    return num % 2 === 0 ? 1 : -1;
+// }
+// console.log(booleanInteger(1))
+
+// function booleanInteger(num) {
+//     return num % 2 === 0 ? 1 : -1;
+// }
+
+// console.log(booleanInteger(2));
+
+function booleanInteger(num) {
+    // ternary operator ? 1 : -1; if value on left is true return or 1 or return -1
+    return num % 2 === 0 ? 1 : -1;
+}
+
+console.log(booleanInteger(5));
