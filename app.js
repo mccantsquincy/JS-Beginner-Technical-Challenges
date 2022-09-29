@@ -247,3 +247,52 @@ function booleanInteger(num) {
 }
 
 console.log(booleanInteger(5));
+
+// 13. Check if a user is logged in AND subscribed
+/** Create a function that takes in two strings. 
+   if the first string is equal to 'LOGGED_IN' AND the second
+   string is equal to 'SUBSCRIBED' return true, otherwise
+   return false **/ 
+
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === 'LOGGED_IN' && string2 === 'SUBSCRIBED' ? true : false;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
+
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === 'LOGGED_IN' && string2 === 'SUBSCRIBED' ? true : false;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED'));
+
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === 'LOGGED_IN' && string2 === 'SUBSCRIBED' ? true : false;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED'));
+
+// 14. Check if a user is logged in OR sunbscribed
+/** Create a function that takes in two Strings. 
+ * if the first string is equal to 'LOGGED_IN' OR the second
+ * string is equal to 'SUBSCRIBED' return true, 
+ * otherwise return false
+ */
+
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === 'LOGGED_IN' || string2 === 'SUBSCRIBED' ? true : false;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'));
+
+// function isLoggedInAndSubscribed(string1, string2) {
+//     return string1 === 'LOGGED_IN' || string2 === 'SUBSCRIBED' ? false : true;
+// }
+
+// console.log(isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED'))
+
+function isLoggedInAndSubscribed(string1, string2) {
+    return string1 === 'LOGGED_IN' || string2 === 'SUBSCRIBED' ? false : true;
+}
+
+console.log(isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED'));
